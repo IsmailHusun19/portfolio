@@ -91,8 +91,8 @@ export default function Contact() {
       className="pt-20 lg:pt-[0rem] bg-[#04081A]
  text-white min-h-screen"
     >
-      <section className="hero min-h-screen flex items-center relative px-4 sm:px-6 lg:px-8">
-        <div className="container mx-auto">
+      <section className="hero min-h-screen pb-10 lg:pb-0 flex items-center relative px-4 sm:px-6 lg:px-8">
+        <div className="container mx-auto pt-0 lg:pt-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Contact Info */}
             <div className="space-y-8">
