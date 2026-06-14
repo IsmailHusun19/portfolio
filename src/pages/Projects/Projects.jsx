@@ -8,8 +8,8 @@ import SabaBatik from "../../assets/images/sabaBatik.webp"
 import ELearning from "../../assets/images/ELearning.webp"
 import BBPVP from "../../assets/images/BBPVP.webp"
 import Restoran from "../../assets/images/Restoran.webp"
-
-
+import Persediaan from "../../assets/images/PersediaanBahan.png"
+import HasilProduksi from "../../assets/images/HasilProduksi.png"
 
 
 
@@ -18,7 +18,7 @@ const projects = [
     title: "E-Learning Universitas Banten Jaya (Skirpsi)📚",
     description:
     "E-Learning Universitas Banten Jaya adalah aplikasi web berbasis React yang mendukung pembelajaran digital dengan fitur manajemen mata kuliah, materi, kuis, kuisioner, serta penilaian. Platform ini juga terintegrasi dengan chatbot untuk mempermudah interaksi dosen dan mahasiswa.",
-    src: "rock.jpg",
+    src: "ELearning",
     link: ELearning,
     color: "#5196fd",
     githubLink: "https://github.com/IsmailHusun19/FE-Skripsi",
@@ -28,7 +28,7 @@ const projects = [
     title: "Sistem Manajemen Pelatihan",
     description:
     "Sistem Manajemen Pelatihan dan Penilaian Lulusan adalah aplikasi web berbasis React yang digunakan untuk mengelola seluruh proses pelatihan, mulai dari pendaftaran peserta, pengelolaan pelatih, jadwal, materi, hingga penilaian serta rekap kelulusan.",
-    src: "rock.jpg",
+    src: "BBPVP",
     link: BBPVP,
     color: "#5196fd",
     githubLink: "https://github.com/IsmailHusun19/transkip-Nilai-FE",
@@ -38,7 +38,7 @@ const projects = [
     title: "Mobile Meven 📱",
     description:
       "Pencarian Ponsel Terbaik adalah sebuah project yang dibangun menggunakan React sebagai frontend framework. Aplikasi ini menerapkan metode Sistem Pendukung Keputusan (SPK) Analytic Hierarchy Process (AHP) untuk membantu pengguna dalam menentukan pilihan ponsel terbaik berdasarkan berbagai kriteria yang telah ditentukan",
-    src: "rock.jpg",
+    src: "Mobile Meven",
     link: MobileMeven,
     color: "#5196fd",
     githubLink: "https://github.com/IsmailHusun19/IsmailHusun19-SPK_pencarian_HP_terbaik",
@@ -48,7 +48,7 @@ const projects = [
     title: "Restoran",
     description:
     "Restoran adalah aplikasi berbasis JavaScript yang menyediakan informasi menu makanan, sistem rating, serta fitur komentar pelanggan. Aplikasi ini dirancang untuk memudahkan pengguna dalam melihat menu, memberikan ulasan, dan menilai kualitas restoran secara interaktif.",
-    src: "rock.jpg",
+    src: "Restoran",
     link: Restoran,
     color: "#5196fd",
     githubLink: "https://github.com/IsmailHusun19/Restoran",
@@ -57,7 +57,7 @@ const projects = [
   {
     title: "Pencarian Film",
     description: "Aplikasi berbasis React untuk mencari informasi film. Data film diambil dari API eksternal sehingga pengguna dapat melihat detail seperti judul, tahun rilis, dan deskripsi film.",
-    src: "tree.jpg",
+    src: "PencarianFilm",
     link: PencarianFilm,
     color: "#5196fd",
     githubLink: "https://github.com/IsmailHusun19/Pencarian_Film",
@@ -66,11 +66,31 @@ const projects = [
   {
     title: "Saba Batik",
     description:  "Aplikasi berbasis React untuk mengenal dan mencari motif batik. Data batik diambil dari dataset JSON sehingga pengguna dapat melihat nama, asal daerah, dan makna dari setiap motif.",
-    src: "water.jpg",
+    src: "SabaBatik",
     link: SabaBatik,
     color: "#5196fd",
     githubLink: "https://github.com/IsmailHusun19/SabaBatik",
     liveLink: "https://saba-batik.vercel.app/",
+  },
+  {
+    title: "Sistem Informasi Manajemen Persediaan Bahan 🏭",
+    description:
+      "Sistem Informasi Manajemen Persediaan Bahan berbasis web yang dirancang untuk membantu pengelolaan stok bahan pada Doir Warehouse Production. Sistem ini mendukung pencatatan bahan masuk, pemakaian bahan, bahan sisa, monitoring stok secara real-time, serta penyajian laporan persediaan untuk mendukung pengambilan keputusan dan perencanaan produksi.",
+    src: "PersediaanBahan",
+    link: Persediaan,
+    color: "#5196fd",
+    githubLink: "https://github.com/IsmailHusun19/FE-SISTEM-MANAJEMEN-BAHAN.git",
+    liveLink: "-",
+  },
+  {
+    title: "Sistem Informasi Pencatatan Hasil Produksi 📊",
+    description:
+      "Sistem informasi pencatatan hasil produksi berbasis web yang dirancang untuk membantu proses pencatatan, pemantauan, dan evaluasi data produksi secara terpusat. Sistem ini menyajikan visualisasi data produksi agar Admin dan Unit Head dapat memantau hasil produksi dengan lebih praktis, cepat, dan terstruktur.",
+    src: "Pencatatan Hasil Produksi",
+    link: HasilProduksi,
+    color: "#5196fd",
+    githubLink: "https://github.com/IsmailHusun19/BE-SISTEM-INFORMASI-PENCATATAN-HASIL-PRODUKSI-",
+    liveLink: "https://fe-sistem-manajemen-bahan.vercel.app/",
   },
 ];
 
